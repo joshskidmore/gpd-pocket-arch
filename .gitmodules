@@ -1,0 +1,3 @@
+[submodule "gpd-pocket-arch-packages"]
+	path = gpd-pocket-arch-packages
+	url = https://github.com/joshskidmore/gpd-pocket-arch-packages
