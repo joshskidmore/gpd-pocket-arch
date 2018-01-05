@@ -32,13 +32,6 @@ build_package() {
   makepkg --force --syncdeps --rmdeps --clean
   mv *.xz $ROOT_DIR
 
-  # rm -rf ./pkg
-  # rm -rf ./src
-  #
-  # if [[ "$package_name" -eq "gpd-pocket-linux-jwrdegoede" ]]; then
-  #
-  # fi
-
   cd $ROOT_DIR
 }
 
@@ -56,7 +49,7 @@ if [[ "$1" == "all" ]]; then
 
   build_package gpd-pocket-alsa-lib
   build_package gpd-pocket-scrolling
-  #build_package gpd-pocket-linux-jwrdegoede
+  build_package gpd-pocket-linux-jwrdegoede
   build_package gpd-pocket-support
 
   update_repo_db
