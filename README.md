@@ -1,4 +1,6 @@
-# Arch Linux Repo for the GPD Pocket
+# Unofficial Arch Linux repo for the GPD Pocket
+
+**[PKGBUILDs for packages located here](https://github.com/joshskidmore/gpd-pocket-arch-packages)**
 
 ## Installation
 
